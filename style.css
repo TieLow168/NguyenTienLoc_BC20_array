@@ -1,0 +1,26 @@
+.title{
+    display: inline-block;
+}
+.info{
+    font-weight: 500;
+}
+.dom__result{
+    display: inline-block;
+    padding-left: 23px;
+    padding-bottom: 10px;
+    padding-top: 4px;
+    width: 50%;
+    background-color: aquamarine;
+    border: 1px solid rgb(99, 240, 99);
+    border-radius: 10px;
+    color: green;
+    font-weight: 500;
+    margin-left: 30px;
+    box-shadow: 3px 4px 10px 0px #484849, 1px 2px 5px #484849;;
+}
+form{
+    padding: 20px;
+    box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
+    background: linear-gradient(to right, #00b09b8f, #96c93d93);
+}
+

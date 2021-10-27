@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <form class="row">
+                <div class="form-group col-12 col-lg-4">
+                    <label class="info" for="numArr"> </label>
+                    <input type="number" class="form-control" id="numArr">
+                </div>
+                <div class="col-12">
+                    <button id="btn__add" type="button" class="btn btn-dark">Thêm số</button>
+                    <p class="dom__result" id="result__add">Số được thêm</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 1: <p class="title">Tổng số dương</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__sum" type="button" class="btn btn-dark">Tính tổng</button>
+                    <p class="dom__result" id="result__b1">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 2: <p class="title">Tổng số dương</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__sort" type="button" class="btn btn-dark">Đếm số dương</button>
+                    <p class="dom__result" id="result__b2">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 3: <p class="title">Tìm số nhỏ nhất</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__findMin" type="button" class="btn btn-dark">Tìm số nhỏ nhất</button>
+                    <p class="dom__result" id="result__b3">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 4: <p class="title">Tìm số dương nhỏ nhất</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__findMinPos" type="button" class="btn btn-dark">Tìm số nhỏ nhất</button>
+                    <p class="dom__result" id="result__b4">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 5: <p class="title">Tìm số chẵn cuối cùng</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__even" type="button" class="btn btn-dark">Tìm số chẵn</button>
+                    <p class="dom__result" id="result__b5">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 6: <p class="title">Đổi vị trí</p></h2>
+            <form class="row">
+                <div class="form-group col-12 col-lg-4">
+                    <label class="info" for="numArr">Vị trí 1 </label>
+                    <input type="number" class="form-control" id="numInputPos1">
+                </div>
+                <div class="form-group col-12 col-lg-4">
+                    <label class="info" for="numArr">Vị trí 2 </label>
+                    <input type="number" class="form-control" id="numInputPos2">
+                </div>
+                <div class="col-12">
+                    <button id="btn__swap" type="button" class="btn btn-dark">Tìm số chẵn</button>
+                    <p class="dom__result" id="result__b6">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="dom__bai1 container py-5">
+        <div class="dom__salary w-60">
+            <h2>Bài 7: <p class="title">Sắp xếp tăng dần</p></h2>
+            <form class="row">
+                <div class="col-12">
+                    <button id="btn__sortIncrease" type="button" class="btn btn-dark">Sắp xếp</button>
+                    <p class="dom__result" id="result__b7">Kết quả là</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
